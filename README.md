@@ -2,11 +2,12 @@
 Covert data collected from Google Form into SPSS format by using R
 
 # Prepare data
-Export data from Google Form to *.xlsx file
-Use find and replace to ensure every value of categorical variable start with number and dot.
-Example:
-Variable gender contains 2 value formatted as "1. Male", "2. Female"
+Export data from Google Form to *.xlsx file\
+Ensure every value of categorical variable start with number and dot.\
+Example:\
+Variable gender contains 2 value formatted as "1. Male", "2. Female".\
+It can be done at the time you create Google form or after export to *.xlsx file.
 
-# Library requires
+# R packages requires
 readxl, haven, stringr, labelled, dplyr
 
