@@ -28,7 +28,7 @@ checkBoxVar = c() # paste list of number here
 varLab = names(df)
 #--------------------
 
-# Functions declare
+# Function(s) declare
 # recode var
 tospss <- function(var) {
   message(paste("### Đã mã hoá:"))
@@ -62,8 +62,8 @@ for (l in checkBoxVar) {
   pattern = pattern[which(pattern %>% str_detect('[:digit:]. '))]
   for (i in pattern) {
     newCol = ncol(df)+1
-    df[[newCol]] = rep("0. Không", nrow(df))
-    df[[newCol]][str_detect(df[[l]], i)] = '1. Có'
+    df[[newCol]] = rep("1. No", nrow(df))
+    df[[newCol]][str_detect(df[[l]], i)] = '2. Yes'
     colnames(df)[newCol] <- paste0(names(df[,l]), which(pattern==i))
     newVarLab = append(newVarLab, i)
   }
