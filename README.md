@@ -11,3 +11,6 @@ It can be done at the time you create Google form or after export to *.xlsx file
 # R packages requires
 readxl, haven, stringr, labelled, dplyr
 
+# Community
+* Facebook: https://www.facebook.com/phantichsolieu.R.SPSS
+* Website: https://raisinghopevn.com/nhom-nghien-cuu/
