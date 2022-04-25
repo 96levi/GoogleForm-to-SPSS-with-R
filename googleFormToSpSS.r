@@ -78,5 +78,8 @@ for (i in recodename) {
 # Set whole variables labels (both old & new) 
 df <- labelled::set_variable_labels(df, .labels = append(varLab, newVarLab))
 
+# You can export df to various types which are compatible for another statistical software such as
+# Stata, Amos, Eview, etc.
+
 # Export to *.sav file
 write_sav(df, 'df.sav')
