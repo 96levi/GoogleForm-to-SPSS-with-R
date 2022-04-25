@@ -6,8 +6,8 @@ Export data from Google Form to *.xlsx file\
 Ensure every value of categorical variable start with number and dot.\
 Example:\
 Variable gender contains 2 value formatted as:\
-* 1. Male 
-* 2. Female
+1. Male 
+2. Female
 It can be done at the time you create Google form or after export to *.xlsx file.
 
 # R packages requires
